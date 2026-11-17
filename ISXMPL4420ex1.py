@@ -1,5 +1,6 @@
 # ISXMPL4420ex1 - Raspberry Pi UART Current Loop Receiver Using the IS4420 Module
 # https://inacks.com/is4420
+# Datasheet: https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
 #
 # The IS4420-M1 sends one text line per measurement, about every 103 ms:
 #     12.34mA_+052.1%_+025deg_IS4420M1_ver0 <CR><LF>
