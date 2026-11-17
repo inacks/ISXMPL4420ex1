@@ -153,7 +153,7 @@ Any computer with a serial port can read the same line, and so can a PC through 
 - **Serial console:** Linux must not use the serial port for its login shell, or it would share pin 10 with the script. That's what step 1 of the setup turns off.
 - **Pull-up voltage:** the IS4420-M1 accepts a TX pull-up to 3.3 V or 5 V, but on a Raspberry Pi it must be 3.3 V.
 - **Temperature:** it's the temperature inside the module, which can be above the ambient temperature.
-- **Protection:** CIN has no protection. Never connect the loop power supply straight to CIN, and never reverse the loop: both destroy the module.
+- **Protection:** CIN has no protection. Never connect the loop power supply straight to CIN, and never reverse the loop: either may permanently damage the module.
 
 ---
 
